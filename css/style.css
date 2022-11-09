@@ -45,7 +45,7 @@
 .my-nav {
     display: flex;
     justify-content: space-between;
-    margin-right: 1rem;
+    margin-right: 200px;
 }
 
 .menu-nav a {
@@ -747,7 +747,7 @@ label,
 }
 
 .container {
-    max-width: 1000px;
+    max-width: 1500px;
 }
 
 .hero-bloc-text {
