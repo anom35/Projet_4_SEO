@@ -31,11 +31,40 @@
 .total-width {
     width: 100%;
 }
+
 .total-width label,
 .total-width input,
 .total-width textarea {
     width: 100%;
 }
+
+.cacher-item {
+    display: none;
+}
+
+.my-nav {
+    display: flex;
+    justify-content: space-between;
+    margin-right: 1rem;
+}
+
+.menu-nav a {
+    text-decoration: none;
+}
+
+.menu-nav ul {
+    margin: 0;
+    font-size: 1.2rem;
+    list-style-type: none;
+    align-items: center;
+}
+
+.align-vertical {
+    align-items: center!important;
+    align-content: center;
+}
+
+
 /* fin */
 
 
