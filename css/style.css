@@ -1135,11 +1135,11 @@ h4 {
         height: 320px;
     }
     .bg-banniere {
-        background-image: url("../img/agence-la-panthere.webp");
+        background-image: url("../img/agence-la-panthere-small.webp");
     }
     
     .bg-presentation {
-        background-image: url("../img/image-de-presentation.webp");
+        background-image: url("../img/image-de-presentation-small.webp");
     }
     .bloc-mob-center-text {
         text-align: center;
