@@ -3,12 +3,10 @@
 
 
 /* mes classes */
-.font-12 {
-    font-size: 12px;
-}
+
 
 .color-black {
-    color: black;
+    color: black!important;
 }
 .augmente-contraste {
     text-shadow: 0 0 3px black;
