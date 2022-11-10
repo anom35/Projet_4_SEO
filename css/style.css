@@ -3,6 +3,9 @@
 
 
 /* mes classes */
+.color-black {
+    color: black;
+}
 .augmente-contraste {
     text-shadow: 0 0 3px black;
 }
