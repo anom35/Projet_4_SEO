@@ -74,14 +74,11 @@
     align-content: center;
 }
 
-
-/* fin */
-
-
 .message-prez {
     color: #555555;
     font-size: 21px;
 }
+
 .message-prez2 {
     font-style: oblique;
     font-family: 'Archivo Narrow', sans-serif;
@@ -90,10 +87,15 @@
     font-size: 24px;
     margin: 0;
 }
+
 .message-prez3 {
     color: lightgray;
     font-size: 19px;
 }
+
+/* fin */
+
+
 
 body {
     margin: 0;
