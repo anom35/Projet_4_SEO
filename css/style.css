@@ -1134,6 +1134,16 @@ h4 {
         width: 180px;
         height: 320px;
     }
+    .bg-banniere {
+        background-image: url("../img/agence-la-panthere.webp");
+    }
+    
+    .bg-presentation {
+        background-image: url("../img/image-de-presentation.webp");
+    }
+    .bloc-mob-center-text {
+        text-align: center;
+    }
 }
 
 @media (max-width: 400px) {
@@ -1143,8 +1153,3 @@ h4 {
     }
 }
 
-@media (max-width: 767px) {
-    .bloc-mob-center-text {
-        text-align: center;
-    }
-}
