@@ -1,10 +1,22 @@
 
-@import url('https://fonts.googleapis.com/css2?family=Archivo+Narrow:ital,wght@1,400;1,500&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Archivo+Narrow:ital,wght@1,400;1,500&display=swap'); */
 
 
 /* mes classes */
+.btn-look {
+    border: 1px solid #c27956;
+    padding: 10px 20px;
+    border-radius: 30px;
+    background-color: #c27956;
+}
+.font-20 {
+    font-size: 20px;
+}
 .font-18 {
     font-size: 18px;
+}
+.font-16 {
+    font-size: 16px;
 }
 
 .color-white {
@@ -81,10 +93,9 @@
 
 .message-prez2 {
     font-style: oblique;
-    font-family: 'Archivo Narrow', sans-serif;
-    line-height: 1em;
+    font-size: 22px;
+    line-height: 1.2em;
     color: #555555;
-    font-size: 24px;
     margin: 0;
 }
 
@@ -863,7 +874,7 @@ h4 {
 
 .bold-link {
     font-weight: 900;
-    text-decoration: underline!important;
+    text-decoration: none;
 }
 
 .bgc-white {
