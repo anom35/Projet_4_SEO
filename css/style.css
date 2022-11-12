@@ -190,7 +190,8 @@ a:hover {
 }
 
 .texture-paper::before {
-    background: url("../img/texture-paper.webp");
+    background-color: #664d03;
+    opacity: 0.2;
     background-size: 280px 280px;
 }
 
@@ -199,7 +200,7 @@ a:hover {
 }
 
 .d-bloc {
-    color: rgba(255, 255, 255);  /* ", .7" de supprimer à la fin */
+    color: rgba(255, 255, 255);
 }
 
 .d-bloc button:hover {
@@ -215,7 +216,7 @@ a:hover {
 }
 
 .d-bloc .divider-h span {
-    border-color: rgba(255, 255, 255, .2);
+    border-color: rgba(255, 255, 255);
 }
 
 .d-bloc .a-btn,
@@ -776,7 +777,7 @@ label,
     text-align: center;
     font-weight: lighter;
     max-width: 520px;
-    margin: auto auto auto auto;
+    margin: auto;
 }
 
 p {
@@ -785,7 +786,7 @@ p {
 
 .tight-width-whitespace {
     max-width: 600px;
-    margin: auto auto auto auto;
+    margin: auto;
 }
 
 .h1 {
