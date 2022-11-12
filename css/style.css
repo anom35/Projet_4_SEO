@@ -1,11 +1,18 @@
 
 /* mes classes */
 
+.width-400 {
+    max-width: 400px!important;
+}
+.width-700 {
+    max-width: 500px!important;
+}
 .adr-agence {
-    display: flex;
     width: 100%;
-    justify-content: center;
-    max-width: 500px;
+}
+.adr-agence img {
+    max-width: 500px!important;
+    margin: 0 auto!important;
 }
 .menu-nav {
     display: flex;
@@ -48,15 +55,15 @@
     color: rgb(35, 28, 28)!important;
 }
 .augmente-contraste {
-    text-shadow: 0 0 3px black;
+    text-shadow: 0 0 3px black!important;
 }
 .contraste-white {
-    text-shadow: 0 0 3px white;
+    text-shadow: 0 0 3px white!important;
 }
 
 .center {
-    text-align: center;
-    justify-content: center;
+    text-align: center!important;
+    justify-content: center!important;
 }
 
 #form_1 {
@@ -969,6 +976,13 @@ h4 {
     .nav-center.navbar .nav {
         max-width: 100%
     }
+    .width-700 {
+        max-width: 400px!important;
+    }
+    .adr-agence img {
+        max-width: 350px!important;
+        margin: 0 auto!important;
+    }
 }
 
 @media only screen and (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
@@ -1018,7 +1032,7 @@ h4 {
     }
 }
 
-@media (max-width: 767px) {
+@media (max-width: 793px) {
     .page-container {
         overflow-x: hidden;
         position: relative;
@@ -1165,6 +1179,20 @@ h4 {
     .bloc-mob-center-text {
         text-align: center;
     }
+    .width-700 {
+        max-width: 350px!important;
+        margin-top: 30px;
+    }
+    .width-700 b {
+        padding-top: 50px;
+    }
+    .adr-agence img {
+        max-width: 350px!important;
+        margin: 0 auto!important;
+    }
+    .row h2 {
+        font-size: 26px!important;
+    }
 }
 
 @media (max-width: 400px) {
@@ -1172,5 +1200,21 @@ h4 {
         padding-left: 0;
         padding-right: 0;
     }
+    .width-700 {
+        max-width: 350px!important;
+        margin-top: 30px;
+    }
+    .width-700 b {
+        padding-top: 50px;
+    }
+    .adr-agence img {
+        max-width: 350px!important;
+        margin: 0 auto!important;
+    }
+    .black-background {
+        padding: 40px 5px;
+    }
+    .row h2 {
+        font-size: 26px!important;
+    }
 }
-
