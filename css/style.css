@@ -18,8 +18,14 @@
 .font-42 {
     font-size: 42px;
 }
+.font-30 {
+    font-size: 30px;
+}
 .font-20 {
     font-size: 20px;
+}
+.font-19 {
+    font-size: 19px;
 }
 .font-18 {
     font-size: 18px;
@@ -55,8 +61,8 @@
 
 #form_1 input,
 #form_1 textarea {
-    font-size: 14px;
-    background-color: #f9c9b3;
+    font-size: 16px;
+    background-color: #ffe3d6;
 }
 
 .total-width {
@@ -443,6 +449,7 @@ a:hover {
 
 .navbar-nav .open .dropdown-menu > li > a {
     text-align: inherit;
+    cursor: pointer;
 }
 
 .nav > li a:hover,
@@ -673,22 +680,6 @@ a[data-lightbox]:hover img {
     animation-fill-mode: none;
 }
 
-#lightbox-modal {
-    display: flex;
-    align-items: center;
-}
-
-#lightbox-modal .modal-dialog {
-    width: 90%;
-    max-width: 900px;
-    margin: 0 auto 0;
-}
-
-#lightbox-modal .modal-dialog img {
-    max-height: 90vh;
-    margin: 0 auto;
-}
-
 .lightbox-caption {
     padding: 20px;
     color: #FFF;
@@ -817,7 +808,7 @@ p {
 
 .social {
     max-width: 400px;
-    margin: auto auto auto auto;
+    margin: auto;
 }
 
 h2 {
@@ -834,7 +825,7 @@ h3 {
 
 .med-width-whitespace {
     max-width: 800px;
-    margin: auto auto auto auto;
+    margin: auto;
     box-shadow: 0px 0px 0px #000000;
 }
 
@@ -896,26 +887,26 @@ h4 {
 
 .tc-black {
     color: #000!important;
-    box-shadow: 0 0 2px white;
+    text-shadow: 0 0 2px white;
 }
 
 .btn-atomic-tangerine {
     /*background: #F3976C;*/
     background: #94583D;
-    color: #FFFFFF!important;
+    color: #FFF!important;
 }
 
 .btn-atomic-tangerine:hover {
     background: #c27956!important;
-    color: #FFFFFF!important;
+    color: #FFF!important;
 }
 
 .ltc-white {
-    color: #FFFFFF!important;
+    color: #FFF!important;
 }
 
 .ltc-white:hover {
-    color: #cccccc!important;
+    color: #ccc!important;
 }
 
 .ltc-atomic-tangerine {
@@ -983,6 +974,12 @@ h4 {
 }
 
 @media (max-width: 991px) {
+    form .total-width {
+        padding-left: 10px;
+    }
+    #form_1 {
+        justify-content: center;
+    }
     .container {
         width: 100%;
     }
