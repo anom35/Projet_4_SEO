@@ -1,5 +1,9 @@
 
 /* mes classes */
+.menu-nav {
+    display: flex;
+    justify-content: space-between;
+}
 .btn-look {
     border: 1px solid #c27956;
     padding: 10px 20px;
@@ -425,7 +429,7 @@ a:hover {
 .nav > li {
     float: left;
     margin-top: 4px;
-    /* margin-right: 60px; */
+    margin-right: 60px;
     font-size: 16px;
 }
 
