@@ -979,7 +979,9 @@ h4 {
     background-color: #664d03;
     padding: 40px;
 }
-
+.bold {
+    font-weight: 600;
+}
 .bold-link {
     font-weight: 900;
     /* text-decoration: underline!important; */
