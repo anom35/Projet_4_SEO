@@ -6,11 +6,14 @@
     justify-content: center;
     padding: 20px 10px;
 }
+.my-footer p {
+    text-align: center;
+}
 .padding-3 {
     margin-left: 2px!important;
 }
 .width-400 {
-    max-width: 400px!important;
+    max-width: 600px!important;
 }
 .adr-agence {
     overflow:hidden;
@@ -35,19 +38,22 @@
     flex-basis: 90%!important;
 }
 .menu-nav a {
-    padding-right: 50px!important;
+    /* padding-right: 50px!important; */
     text-decoration: none;
 }
 .menu-nav ul {
     display: flex;
-    gap: 20px;
+    padding: 0;
+    padding-right: 30px;
+    gap: 40px;
     margin: 0;
     font-size: 2rem!important;
     list-style-type: none;
     align-items: center;
 }
 .menu-nav ul a:hover {
-    text-shadow: 0 0px 20px #f9a007;
+    padding-bottom: 5px;
+    border-bottom: 3px solid #f9a007;
 }
 
 .btn-look {
@@ -56,7 +62,7 @@
     border-radius: 30px;
     background-color: #c27956;
     min-width: 300px;
-    color: #000000;
+    color: #000!important;
 }
 .btn-look:hover {
     box-shadow: 0 0 10px pink;
@@ -104,7 +110,7 @@
 
 #form_1 {
     display: flex;
-    width: 300px!important;
+    max-width: 500px!important;
     flex-wrap: wrap;
 }
 
@@ -117,7 +123,10 @@
     font-size: 16px;
     background-color: #ffe3d6;
 }
-
+#bloc-7-div {
+    display: flex;
+    justify-content: center;
+}
 .total-width {
     width: 100%;
 }
@@ -453,6 +462,7 @@ a:hover {
 
 #bloc-1-hero h1 {
     font-size: 32px;
+    margin-bottom: 60px;
 }
 
 .navbar {
@@ -559,15 +569,8 @@ a:hover {
     margin: 0 auto;
     padding-top: 10px;
 }
-/* icones réseaux sociaux */
-figure{
-    padding-bottom: 40px;
-}
-figure .social .fa{
-  color:  rgb(80, 48, 48);
-}
-figure .social .fa:hover{
-    color: rgb(30, 30, 30)!important;
+#bloc-5-cta h2 {
+    margin-bottom: 50px;
 }
 /* footer navigation */
 footer nav{
@@ -1280,6 +1283,15 @@ h4 {
     .col-sm-12 {
         padding: 0;
     }
+    #form_1 {
+        min-width: 280px;
+    }
+    .menu-nav ul {
+        padding: 0;
+        display: flex;
+        justify-content: space-around;
+    }
+}
 }
 
 @media (min-width: 590px) and (max-width: 768px) {
@@ -1316,11 +1328,19 @@ h4 {
     .btn-look {
         min-width: 200px;
         width: 290px!important;
-        color: #000000!important;
+        /* color: #000000!important; */
     }
-    
+    .container {
+        padding-left: 5px;
+        padding-right: 5px;
+    }
     .bloc .container {
         padding-left: 0;
+    }
+    .menu-nav ul {
+        padding: 0;
+        display: flex;
+        justify-content: space-around;
     }
 }
 
