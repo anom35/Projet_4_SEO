@@ -1293,6 +1293,9 @@ h4 {
         display: flex;
         justify-content: space-around;
     }
+    .bg-banniere {
+        background-image: url("../img/agence_la_panthere-ultrasmall.webp")!important;
+    }
 }
 
 
