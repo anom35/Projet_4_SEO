@@ -1333,10 +1333,13 @@ h4 {
     .col-sm-12, .container {
         padding-left: 0;
     }
+    #disqus_thread {
+        padding: 0;
+    }
     .btn-look {
         min-width: 200px;
-        width: 290px!important;
-        /* color: #000000!important; */
+        width: 300px!important;
+        padding: 15px;
     }
     .container {
         padding-left: 5px;
