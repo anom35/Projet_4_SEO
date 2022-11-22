@@ -40,7 +40,6 @@
     flex-basis: 90%!important;
 }
 .menu-nav a {
-    /* padding-right: 50px!important; */
     text-decoration: none;
 }
 .menu-nav ul {
@@ -57,6 +56,11 @@
     padding-bottom: 5px;
     border-bottom: 3px solid #f9a007;
 }
+.menu-nav ul a  {
+    padding-bottom: 5px;
+    border-bottom: 3px solid #f9a007;
+}
+
 
 .btn-look {
     border: 1px solid #c27956;
