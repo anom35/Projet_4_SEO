@@ -41,7 +41,6 @@
 }
 .menu-nav a {
     text-decoration: none;
-    position: relative;
 }
 .menu-nav ul {
     display: flex;
