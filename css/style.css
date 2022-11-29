@@ -1307,13 +1307,6 @@ h4 {
     }
 }
 
-
-@media (min-width: 590px) and (max-width: 768px) {
-    .menu-nav {
-        justify-content: center!important;
-    }
-}
-
 @media (max-width: 590px) {
     .menu-nav ul {
         gap: 1rem;
