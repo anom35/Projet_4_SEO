@@ -173,7 +173,16 @@
 
 /* fin */
 
-
+.fa-instagram,
+.fa-dribbble,
+.fa-facebook, 
+.fa-twitter {
+    color: #000;
+    font-size: 3rem;
+}
+#twitter, #facebook, #dribbble {
+    padding-right: 2rem;
+}
 
 body {
     margin: 0;
@@ -1292,7 +1301,9 @@ h4 {
     .menu-nav ul {
         padding: 0;
         display: flex;
-        justify-content: space-around;
+        flex-direction: column;
+        justify-content: start;
+        gap: 1rem;
     }
 }
 
@@ -1300,6 +1311,12 @@ h4 {
 @media (min-width: 590px) and (max-width: 768px) {
     .menu-nav {
         justify-content: center!important;
+    }
+}
+
+@media (max-width: 590px) {
+    .menu-nav ul {
+        gap: 1rem;
     }
 }
 
@@ -1344,11 +1361,6 @@ h4 {
     }
     .bloc .container {
         padding-left: 0;
-    }
-    .menu-nav ul {
-        padding: 0;
-        display: flex;
-        justify-content: space-around;
     }
     #bloc-8 {
         padding-left: 10px;
