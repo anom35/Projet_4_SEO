@@ -48,7 +48,7 @@
     padding-right: 30px;
     gap: 40px;
     margin: 0;
-    font-size: 2rem!important;
+    /* font-size: 2rem!important; */
     list-style-type: none;
     align-items: center;
 }
@@ -88,7 +88,7 @@
     font-size: 18px!important;
 }
 .font-16 {
-    font-size: 16px;
+    font-size: 16px!important;
 }
 
 .color-white {
@@ -178,7 +178,7 @@
 .fa-facebook, 
 .fa-twitter {
     color: #000;
-    font-size: 3rem;
+    font-size: 2rem!important;
 }
 #twitter, #facebook, #dribbble {
     padding-right: 2rem;
@@ -189,7 +189,7 @@ body {
     padding: 0;
     background: rgb(231, 210, 210);
     overflow-x: hidden;
-    font-size: 16px!important;
+    font-size: 18px!important;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
 }
@@ -204,15 +204,6 @@ a:hover {
     text-decoration: none;
     cursor: pointer;
 }
-
-/* #page-loading-blocs-notifaction {
-    position: fixed;
-    top: 0;
-    bottom: 0;
-    width: 100%;
-    z-index: 100000;
-    background: #FFFFFF url("img/pageload-spinner.gif") no-repeat center center;
-} */
 
 .bloc {
     width: 100%;
@@ -934,7 +925,7 @@ p {
 
 .social {
     max-width: 400px;
-    margin: auto auto auto auto;
+    margin: auto;
 }
 
 h2 {
@@ -951,7 +942,7 @@ h3 {
 
 .med-width-whitespace {
     max-width: 800px;
-    margin: auto auto auto auto;
+    margin: auto;
     box-shadow: 0px 0px 0px #000000;
 }
 
@@ -994,7 +985,6 @@ h4 {
 }
 .bold-link {
     font-weight: 900;
-    /* text-decoration: underline!important; */
 }
 
 .bgc-white {
@@ -1360,6 +1350,7 @@ h4 {
         padding-right: 10px;
     }
 }
+
 
 @media (min-width: 440px) and (max-width: 767px) {
     .bloc-mob-center-text {
