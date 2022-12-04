@@ -1130,8 +1130,36 @@ h4 {
     }
 }
 
+
 @media (min-width: 440px) and (max-width: 767px) {
-    .page-container {
+    .bloc-mob-center-text {
+        text-align: center;
+    }
+    .bloc-mob-center-text {
+        text-align: center;
+    }
+
+    .adr-agence img {
+        max-width: 350px!important;
+        margin: 0 auto!important;
+    }
+    .row h2 {
+        font-size: 26px!important;
+    }
+   .width-700 {
+        max-width: 350px!important;
+        margin-top: 30px;
+    }
+    .width-700 b {
+        padding-top: 50px;
+    }
+    .bg-banniere {
+        background-image: url("../img/agence_la_panthere-small.webp");
+    }
+    
+    .bg-presentation {
+        background-image: url("../img/image_de_presentation-small.webp");
+    }    .page-container {
         overflow-x: hidden;
         position: relative;
     }
@@ -1355,33 +1383,10 @@ h4 {
     }
 }
 
-
-@media (min-width: 440px) and (max-width: 767px) {
-    .bloc-mob-center-text {
-        text-align: center;
-    }
+@media (max-width: 320px) {
     .bg-banniere {
         background-image: url("../img/agence_la_panthere-small.webp");
-    }
-    
-    .bg-presentation {
-        background-image: url("../img/image_de_presentation-small.webp");
-    }
-    .bloc-mob-center-text {
-        text-align: center;
-    }
-    .width-700 {
-        max-width: 350px!important;
-        margin-top: 30px;
-    }
-    .width-700 b {
-        padding-top: 50px;
-    }
-    .adr-agence img {
-        max-width: 350px!important;
-        margin: 0 auto!important;
-    }
-    .row h2 {
-        font-size: 26px!important;
-    }
+    }    
 }
+
+
