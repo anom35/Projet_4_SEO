@@ -1157,7 +1157,8 @@ h4 {
     
     .bg-presentation {
         background-image: url("../img/image_de_presentation-small.webp");
-    }    .page-container {
+    }    
+    .page-container {
         overflow-x: hidden;
         position: relative;
     }
@@ -1388,6 +1389,9 @@ h4 {
     .bg-banniere {
         background-image: url("../img/agence_la_panthere-small.webp")!important;
     } 
+    .bg-presentation {
+        background-image: url("../img/image_de_presentation-small.webp");
+    }  
     .bloc {
         padding-left: 0;
         padding-right: 0;
