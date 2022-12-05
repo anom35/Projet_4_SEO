@@ -809,6 +809,7 @@ a[data-lightbox]:hover img {
     color: #FFF;
     background: rgba(0, 0, 0, .5);
     position: absolute;
+    text-align: center;
     left: 15px;
     right: 15px;
     bottom: 5px;
@@ -1307,7 +1308,7 @@ h4 {
     }
 }
 
-@media (min-width: 401) and (max-width: 440px) {
+@media (max-width: 440px) {
     .menu-nav {
         gap: 20px;
     }
@@ -1338,7 +1339,7 @@ h4 {
     }
 }
 
-@media (min-width: 321) and (max-width: 400px) {
+@media (max-width: 400px) {
     .bloc {
         padding-right: 0;
     }
@@ -1392,7 +1393,21 @@ h4 {
 @media (max-width: 320px) {
     .bg-banniere {
         background-image: url("../img/agence_la_panthere-small.webp");
-    }    
+    } 
+    .bloc {
+        padding-left: 0;
+        padding-right: 0;
+    }   
+    .lightbox-caption {
+        padding: 20px;
+        color: #FFF;
+        background: rgba(0, 0, 0, .5);
+        position: absolute;
+        left: 15px;
+        right: 15px;
+        font-size: 16px;
+        bottom: -8px;
+    }
 }
 
 
