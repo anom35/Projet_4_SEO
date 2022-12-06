@@ -521,7 +521,7 @@ a:hover {
 
 .navbar-toggle {
     margin: 10px 10px 0 0;
-    border: 0px;
+    border: 0;
 }
 
 .navbar-toggle:hover {
@@ -622,7 +622,7 @@ footer nav a{
         position: relative;
         width: 100%;
         right: 0;
-        margin-right: 0px;
+        margin-right: 0;
         margin-top: 20px;
     }
     .nav-center.mini-nav .navbar-toggle {
@@ -947,7 +947,7 @@ h3 {
 .med-width-whitespace {
     max-width: 800px;
     margin: auto;
-    box-shadow: 0px 0px 0px #000000;
+    box-shadow: 0 0 0 #000000;
 }
 
 h1 {
@@ -977,7 +977,7 @@ h4 {
 }
 
 .avatar {
-    box-shadow: 0px 4px 9px rgba(0, 0, 0, 0.3);
+    box-shadow: 0 4px 9px rgba(0, 0, 0, 0.3);
 }
 
 .black-background {
@@ -1086,7 +1086,7 @@ h4 {
     }
 }
 
-@media (min-width: 768) and (max-width: 991px) {
+@media (min-width: 768px) and (max-width: 991px) {
     .navbar .nav {
         max-width: 80%
     }
